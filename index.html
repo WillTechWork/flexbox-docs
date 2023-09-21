@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <title>Flexbox - Documentação</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Flexbox</h1>
+    <h2>Documentação</h2>
+    <h3>Display: flex</h3>
+
+    <!-- Abreviação Emmet: p.dsecrição-prorpriedade -->
+
+    <p class="descricao-propriedade">
+        A propriedade display: flex deve ser a primeira, e assim a ser declarada no CSS. A partir dela, é que iremos ter
+        o entendimento, ou seja,
+        compreender que precisamos utilizar o conteúdo do conteiner para a utilização de Caixa Flexível.</p>
+
+    <p>Exemplo:</p>
+
+    <!-- Abreviações Emmet: div.conteiner, div.contido-->
+
+    <h4>center</h4>
+
+    <p>Exemplo:</p>
+    <div class="conteiner display-flex">
+        <!-- Nese caso de classe, estou afirmando que irá receber as propriedades de container e display-flex -->
+        <div class="contido"></div>
+        <div class="contido"></div>
+        <div class="contido"></div>
+        <div class="contido"></div>
+        <div class="contido"></div>
+    </div>
+    <!-- Abreviação Emmet
+    table>(tr>th.propriedade+th.valor)+tr*3>td.propriedade+td.valor -->
+
+    <table>
+        <caption>Valores padrões das propriedades do Flexbox</caption>
+        <tr>
+            <th class="propriedade">Propriedade</th>
+            <th class="valor">valor</th>
+        </tr>
+        <tr>
+            <td class="propriedade">flex-direction</td>
+            <td class="valor">row</td>
+        </tr>
+        <tr>
+            <td class="propriedade">justify-content</td>
+            <td class="valor">flex-start</td>
+        </tr>
+        <tr>
+            <td class="propriedade">align-content</td>
+            <td class="valor">flex-start</td>
+        </tr>
+    </table>
+
+    <h3>justify-content</h3>
+    <p class="descricao-propriedade">
+        A propriedade justify-content pode ser utilizada para justificar o conteúdo do elemento conteiner
+        em seu eixo primário, ou seja, eixo (X) (row, row-reverse) ou eixo (x) (row,row-reverse) ou eixo y (column,
+        column-reverse).
+    </p>
+
+    <h4>Center</h4>
+
+    <p class="descricao-propriedade">
+        O valor "center" vai alinhar o conteúdo ao centro do eixo primário.
+    </p>
+
+    <p>Exemplo:</p>
+    <div class="conteiner display-flex justify-content-center">
+        <div class="contido"></div>
+        <div class="contido"></div>
+        <div class="contido"></div>
+        <div class="contido"></div>
+        <div class="contido"></div>
+    </div>
+
+    <h5>Exemplo: display-flex-property</h5>
+    <div id="Cores">
+        <p>Especificando as cores de acordo com seus respectivos nomes:</p>
+        <div id="menu-cores">
+            <div style="background-color:aqua;">Aqua div</div>
+            <div id="bluediv" style="background-color:lightblue;">Azul claro</div>
+            <div style="background-color:aquamarine;">Verde Claro</div>
+            <div style="background-color:pink;">Rosa</div>
+        </div>
+
+
+
+
+
+
+</body>
+
+</html>
