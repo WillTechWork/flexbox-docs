@@ -199,3 +199,30 @@ tr:nth-child(odd) {
     width: 150px;
     height: 150px;
 }
+
+.contido:nth-child(5n+1) {
+    background-color: black;
+}
+
+.contido:nth-child(5n+2) {
+    background-color: blue;
+
+}
+
+.contido:nth-child(5n+3) {
+    background-color: aqua;
+}
+
+.contido:nth-child(5n+4) {
+    background-color: yellow;
+}
+
+
+.contido:nth-child(5n+5) {
+    background-color: aquamarine;
+}
+
+#cores {
+    flex-wrap: wrap;
+    height: auto;
+}
