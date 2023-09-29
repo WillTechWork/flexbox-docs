@@ -151,17 +151,18 @@ tr:nth-child(odd) {
 }
 
 #Aligncontent {
-    width: 210px;
-    height: 900px;
+    width: 140px;
+    height: 140px;
     border: 4px solid blue;
     display: flex;
     flex-wrap: wrap;
-    align-content:
+    align-content: flex-start;
 }
 
+
 #Aligncontent div {
-    width: 210px;
-    height: 210px;
+    width: 100px;
+    height: 100px;
 }
 
 
