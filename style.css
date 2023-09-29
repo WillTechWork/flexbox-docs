@@ -156,7 +156,7 @@ tr:nth-child(odd) {
     border: 4px solid blue;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    align-content:
 }
 
 #Aligncontent div {
@@ -200,29 +200,42 @@ tr:nth-child(odd) {
     height: 150px;
 }
 
-.contido:nth-child(5n+1) {
-    background-color: black;
-}
-
-.contido:nth-child(5n+2) {
-    background-color: blue;
-
-}
-
-.contido:nth-child(5n+3) {
+.aqua {
     background-color: aqua;
+    border: 10px solid aqua;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
 }
 
-.contido:nth-child(5n+4) {
-    background-color: yellow;
+.blueviolet {
+    background-color: blueviolet;
+    border: 10px solid blueviolet;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
 }
 
-
-.contido:nth-child(5n+5) {
-    background-color: aquamarine;
+.brown {
+    background-color: brown;
+    border: 10px solid brown;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
 }
 
-#cores {
-    flex-wrap: wrap;
-    height: auto;
+.cadetblue {
+    background-color: cadetblue;
+    border: 10px solid cadetblue;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+}
+
+.chartreuse {
+    background-color: chartreuse;
+    border: 10px solid chartreuse;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
 }
