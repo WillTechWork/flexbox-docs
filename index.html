@@ -10,11 +10,13 @@
 </head>
 
 <body>
-    <h1>Flexbox</h1>
-    <h2>Documentação</h2>
-    <h3>Display: flex</h3>
+    <h1>Explicando cada uma das propriedades e valores</h1>
+    <h2>Documentação Flexbox</h2>
+    <h2>Explicando cada uma das propriedades e valores</h2>
+    <h2>display: flex</h2>
 
     <!-- Abreviação Emmet: p.dsecrição-prorpriedade -->
+
 
     <p class="descricao-propriedade">
         A propriedade display: flex deve ser a primeira, e assim a ser declarada no CSS. A partir dela, é que iremos ter
@@ -22,137 +24,141 @@
         compreender que precisamos utilizar o conteúdo do conteiner para a utilização de Caixa Flexível.</p>
 
     <p>Exemplo:</p>
-
     <!-- Abreviações Emmet: div.conteiner, div.contido-->
-
     <h4>center</h4>
-
-    <p>Exemplo:</p>
     <div class="conteiner display-flex">
         <!-- Nese caso de classe, estou afirmando que irá receber as propriedades de container e display-flex -->
-        <div class="contido"></div>
-        <div class="contido"></div>
-        <div class="contido"></div>
-        <div class="contido"></div>
-        <div class="contido"></div>
-    </div>
-    <!-- Abreviação Emmet
+        <div class="contido">1</div>
+        <div class="contido">2</div>
+        <div class="contido">3</div>
+        <div class="contido">4</div>
+        <div class="contido">5</div>
+        <div class="contido">6</div>
+        <div class="contido">7</div>
+        <div class="contido">8</div>
+        <div class="contido">9<div>
+        <div class="contido">10<div>
+                        <!-- 10 item-->
+                    </div>
+                    <!-- Abreviação Emmet
     table>(tr>th.propriedade+th.valor)+tr*3>td.propriedade+td.valor -->
 
-    <table>
-        <caption>Valores padrões das propriedades do Flexbox</caption>
-        <tr>
-            <th class="propriedade">Propriedade</th>
-            <th class="valor">valor</th>
-        </tr>
-        <tr>
-            <td class="propriedade">flex-direction</td>
-            <td class="valor">row</td>
-        </tr>
-        <tr>
-            <td class="propriedade">justify-content</td>
-            <td class="valor">flex-start</td>
-        </tr>
-        <tr>
-            <td class="propriedade">align-content</td>
-            <td class="valor">flex-start</td>
-        </tr>
-    </table>
+                    <table>
+                        <caption>Valores padrões das propriedades do Flexbox</caption>
+                        <tr>
+                            <th class="propriedade">Propriedade</th>
+                            <th class="valor">valor</th>
+                        </tr>
+                        <tr>
+                            <td class="propriedade">flex-direction</td>
+                            <td class="valor">row</td>
+                        </tr>
+                        <tr>
+                            <td class="propriedade">justify-content</td>
+                            <td class="valor">flex-start</td>
+                        </tr>
+                        <tr>
+                            <td class="propriedade">align-content</td>
+                            <td class="valor">flex-start</td>
+                        </tr>
+                    </table>
 
-    <h3>justify-content</h3>
-    <p class="descricao-propriedade">
-        A propriedade justify-content pode ser utilizada para justificar o conteúdo do elemento conteiner
-        em seu eixo primário, ou seja, eixo (X) (row, row-reverse) ou eixo (x) (row,row-reverse) ou eixo y (column,
-        column-reverse).
-    </p>
+                    <h3>justify-content</h3>
+                    <p class="descricao-propriedade">
+                        A propriedade justify-content pode ser utilizada para justificar o conteúdo do elemento
+                        conteiner
+                        em seu eixo primário, ou seja, eixo (X) (row, row-reverse) ou eixo (x) (row,row-reverse) ou eixo
+                        y (column,
+                        column-reverse).
+                    </p>
 
-    <h4>Center</h4>
+                    <h4>Center</h4>
 
-    <p class="descricao-propriedade">
-        O valor "center" vai alinhar o conteúdo ao centro do eixo primário.
-    </p>
+                    <p class="descricao-propriedade">
+                        O valor "center" vai alinhar o conteúdo ao centro do eixo primário.
+                    </p>
 
-    <p>Exemplo:</p>
-    <div class="conteiner display-flex justify-content-center">
-        <div class="contido"></div>
-        <div class="contido"></div>
-        <div class="contido"></div>
-        <div class="contido"></div>
-        <div class="contido"></div>
-    </div>
+                    <p>Exemplo:</p>
+                    <div class="conteiner display-flex justify-content-center">
+                        <div class="contido"></div>
+                        <div class="contido"></div>
+                        <div class="contido"></div>
+                        <div class="contido"></div>
+                        <div class="contido"></div>
+                    </div>
 
-    <h1>Exemplo: display-flex-property.</h1>
-    <h1>Especificando as cores de acordo com seus respectivos nomes:<h1>
-            <br>
-            <div id="Cores">
-                <div class="aquamarine">Aquamarine</div>
-                <div class="black">Black</div>
-                <div class="pink">Pink</div>
-                <div class="green">Green</div>
-            </div>
-            <br>
-            <h1>Exemplo: justify-content</h1>
-            <p>Adicionando justifify-content, centralizando:</p>
-            <br>
-            <div id="center">
-                <div class="aquamarine">Aquamarine</div>
-                <div class="black">Black</div>
-                <div class="pink">Pink</div>
-                <div class="green">Green</div>
-            </div>
-            <br>
-            <h1>Exemplo: flex-direction</h1>
-            <p>Adicionando flex-direction:</p>
-            <br>
-            <div id="direction">
-                <div class="aquamarine">Aquamarine</div>
-                <div class="black">Black</div>
-                <div class="pink">Pink</div>
-                <div class="green">Green</div>
-            </div>
-            <h1>Exemplo: Align-item</h1>
-            <p>Adicionando Align-itens:</p>
-            <br>
-            <div id="align">
-                <div class="aquamarine">Aquamarine</div>
-                <div class="black">Black</div>
-                <div class="pink">Pink</div>
-                <div class="green">Green</div>
-            </div>
-            <br>
-            <h1>Exemplo: flex-wrap</h1>
-            <p>Adicionando flex-wrap:</p>
-            <br>
-            <div id="wrap">
-                <div class="aquamarine">Aquamarine</div>
-                <div class="black">Black</div>
-                <div class="pink">Pink</div>
-                <div class="green">Green</div>
-            </div>
-            <br>
-            <h1>Exemplo: flex-flow</h1>
-            <p>Adicionando flex-flow:</p>
-            <br>
-            <div id="flow">
-                <div class="aquamarine">Aquamarine</div>
-                <div class="black">Black</div>
-                <div class="pink">Pink</div>
-                <div class="green">Green</div>
-            </div>
-            <br>
-            <h1>Exemplo: Align-content</h1>
-            <p>Adicionando Align-content:</p>
-            <br>
-            <div id="aligncontent">
-                <div class="aquamarine">Aquamarine</div>
-                <div class="black">Black</div>
-                <div class="pink">Pink</div>
-                <div class="green">Green</div>
-                <div class="blueviolet">Blueviolet</div>
-                <div class="brown">Brown</div>
-                <div class="cadetblue">Cadetblue</div>
-                <div class="chartreuse">Chartreuse</div>
-            </div>
+                    <h1>Exemplo: display-flex-property.</h1>
+                    <h1>Especificando as cores de acordo com seus respectivos nomes:<h1>
+                            <br>
+                            <div id="Cores">
+                                <div class="aquamarine">Aquamarine</div>
+                                <div class="black">Black</div>
+                                <div class="pink">Pink</div>
+                                <div class="green">Green</div>
+                            </div>
+                            <br>
+                            <h1>Exemplo: justify-content</h1>
+                            <p>Adicionando justifify-content, centralizando:</p>
+                            <br>
+                            <div id="center">
+                                <div class="aquamarine">Aquamarine</div>
+                                <div class="black">Black</div>
+                                <div class="pink">Pink</div>
+                                <div class="green">Green</div>
+                            </div>
+                            <br>
+                            <h1>Exemplo: flex-direction</h1>
+                            <p>Adicionando flex-direction:</p>
+                            <br>
+                            <div id="direction">
+                                <div class="aquamarine">Aquamarine</div>
+                                <div class="black">Black</div>
+                                <div class="pink">Pink</div>
+                                <div class="green">Green</div>
+                            </div>
+                            <h1>Exemplo: Align-item</h1>
+                            <p>Adicionando Align-itens:</p>
+                            <br>
+                            <div id="align">
+                                <div class="aquamarine">Aquamarine</div>
+                                <div class="black">Black</div>
+                                <div class="pink">Pink</div>
+                                <div class="green">Green</div>
+                            </div>
+                            <br>
+                            <h1>Exemplo: flex-wrap</h1>
+                            <p>Adicionando flex-wrap:</p>
+                            <br>
+                            <div id="wrap">
+                                <div class="aquamarine">Aquamarine</div>
+                                <div class="black">Black</div>
+                                <div class="pink">Pink</div>
+                                <div class="green">Green</div>
+                            </div>
+                            <br>
+                            <h1>Exemplo: flex-flow</h1>
+                            <p>Adicionando flex-flow:</p>
+                            <br>
+                            <div id="flow">
+                                <div class="aquamarine">Aquamarine</div>
+                                <div class="black">Black</div>
+                                <div class="pink">Pink</div>
+                                <div class="green">Green</div>
+                            </div>
+                            <br>
+                            <h1>Exemplo: Align-content</h1>
+                            <p>Adicionando Align-content:</p>
+                            <br>
+                            <div id="aligncontent">
+                                <div class="aquamarine">Aquamarine</div>
+                                <div class="black">Black</div>
+                                <div class="pink">Pink</div>
+                                <div class="green">Green</div>
+                                <div class="blueviolet">Blueviolet</div>
+                                <div class="brown">Brown</div>
+                                <div class="cadetblue">Cadetblue</div>
+                                <div class="chartreuse">Chartreuse</div>
+                            </div>
 
 
 
